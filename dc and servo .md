@@ -1,4 +1,6 @@
 //dc 
+![Screenshot 2023-07-25 045800](https://github.com/ALI-A23/Arduino23/assets/138877069/a02b5e01-f33e-4d4b-ad83-d817120ed6fe)
+
 int motorPin = 3;
 
 void setup() {
@@ -8,9 +10,10 @@ void setup() {
 void loop() {
    digitalWrite(motorPin, HIGH);
 }
-![Screenshot (10)](https://github.com/ALI-A23/Arduino23/assets/138877069/58324340-2ab6-4b84-8a12-14fe931e55a0)
+
 //servo 
-![Screenshot (13)](https://github.com/ALI-A23/Arduino23/assets/138877069/96632de5-2ca7-4031-8f60-83c63a244c6f)
+![Screenshot 2023-07-25 045532](https://github.com/ALI-A23/Arduino23/assets/138877069/74f3b635-4303-465d-9cb7-0b038d15289e)
+
 #include <Servo.h>
 
 int pos = 0;
